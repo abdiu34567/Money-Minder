@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysqlclient = "*"
+pillow = "*"
+django-tastypie = "*"
+
+[dev-packages]
+pylint = "*"
+"autopep8" = "*"
+django-seed = "*"
+
+[requires]
+python_version = "3.6"
